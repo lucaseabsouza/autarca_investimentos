@@ -7,6 +7,8 @@ function Header() {
   return (
     <>
       <div className='header'>
+        <span>
+        </span>
         <img src='/imgs/logo_bg_black.png'/>
         <FontAwesomeIcon icon={faEllipsisVertical} style={{color: "#ffffff"}} />
       </div>

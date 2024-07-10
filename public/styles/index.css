@@ -1,20 +1,44 @@
 * {
     padding: 0;
     margin: 0;
+
     box-sizing: border-box;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-    padding: 0.5rem;
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-    background-color: black;
+        padding: 0.5rem 1rem;
+
+        background-color: black;
+    }
+
+    .header img {
+        width: 8rem;
+    }
+
+    .containerCardsInsights {
+        display: ruby;
+    }
+
+    .cardsInsights{
+        display: flex;
+        justify-items: flex-start;
+        flex-direction: column;
+
+        padding: 1rem;
+        margin: 1rem;
+        gap: 1rem;
+
+        border-radius: 0.5rem;
+
+        background-color: #EAEAEA;
+    }
+
 }
-
-.header img {
-    width: 8rem;
-}
-
