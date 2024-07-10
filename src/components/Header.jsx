@@ -1,10 +1,15 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
 
   return (
     <>
-      <img className='logo_header' src='../public/imgs/logo_bg_black.png'></img>
+      <div className='header'>
+        <img src='/imgs/logo_bg_black.png'/>
+        <FontAwesomeIcon icon={faEllipsisVertical} style={{color: "#ffffff"}} />
+      </div>
     </>
   )
 }
