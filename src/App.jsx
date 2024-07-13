@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import infoCardInsights from './components/InfoCardInsights';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { ChartLineProfitability } from './components/ChartLineProfitability';
 
 function App() {
 
@@ -19,6 +19,7 @@ function App() {
           </span>
         </div>
       ))}
+      <ChartLineProfitability/>
     </>
 )}
 export default App
