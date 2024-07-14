@@ -12,6 +12,7 @@ import {
     plugins,
     Filler,
     } from 'chart.js';
+import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
     ChartJS.register(
     CategoryScale, 
@@ -32,11 +33,6 @@ export const ChartLineProfitability = () => {
             legend: {
                 display: false,
             },
-            title: {
-                display: true,
-                text: "Rentabilidade",
-                padding: 20
-            },
         },
         scales: {
             y: {
@@ -44,16 +40,16 @@ export const ChartLineProfitability = () => {
                     display: false,
                 },
                 ticks: {
-                    display: false
+                    display: false,
                 }
             },
             x: {
                 grid: {
-                    display: false
+                    display: false,
                 },
             },
         },
     };
 
-    return <Line options={options} data={DataChartLineProfitability} />
+    return <Line className='chartLineProfitability' options={options} data={DataChartLineProfitability} />
 }
