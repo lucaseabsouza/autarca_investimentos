@@ -4,7 +4,7 @@
 
     box-sizing: border-box;
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -42,7 +42,7 @@
     }
 
     .titleCharts{
-        margin-left: 0.5rem;
+        margin: 1rem 0 1rem 0.5rem;
     }
 
     .chartLineProfitability{
@@ -60,12 +60,12 @@
         font-weight: bold;
         font-size: 1.5rem;
 
-        width: max-content;
+        min-width: max-content;
 
         border-radius: 0.5rem;
 
         padding: 0.5rem;
-        margin: 1rem 0.5rem;
+        margin: 0.5rem 1rem;
 
         color: #fff;
         background-color: #108142;
@@ -73,6 +73,7 @@
 
     .btnSelect{
         display: inline-flex;
+
         align-items: center;
 
         font-size: 1.5rem;
@@ -83,7 +84,7 @@
         border-radius: 0.5rem;
 
         padding: 0.5rem 1rem;
-        margin: 0.5rem;
+        margin: 0.5rem 1rem;
 
         color: #fff;
         background-color: #000;
