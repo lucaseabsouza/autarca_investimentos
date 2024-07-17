@@ -12,7 +12,6 @@ import {
     plugins,
     Filler,
     } from 'chart.js';
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
     ChartJS.register(
     CategoryScale, 

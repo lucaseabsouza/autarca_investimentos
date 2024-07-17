@@ -2,7 +2,6 @@ import React from "react";
 import Header from './Header'
 import infoCardInsights from './InfoCardInsights';
 import { ChartLineProfitability } from './ChartLineProfitability';
-import { Link } from 'react-router-dom'
 
 export default function PageProfitability() {
     return (
@@ -33,6 +32,5 @@ export default function PageProfitability() {
             </button>
             <ChartLineProfitability/>
         </div>
-        <Link to={ "/carteira" }>Carteira</Link>
         </>
     )}
