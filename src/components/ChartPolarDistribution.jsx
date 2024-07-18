@@ -7,7 +7,9 @@ import {
     Tooltip,
     scales,
     elements,
+    Ticks,
     } from 'chart.js';
+import { faL } from '@fortawesome/free-solid-svg-icons';
 
     ChartJS.register(
         RadialLinearScale,
@@ -36,7 +38,11 @@ export const ChartPolarDistribution = () => {
                     '#7C7C7C',
                     '#017736',
                 ],
-                borderWidth: 0,
+                borderWidth: 10,
+                borderColor: "#EAEAEA",
+                borderRadius: 15,
+                hoverBackgroundColor: "#EAEAEA",
+                hoverBorderWidth: 10,
             },
         ],
     };
@@ -49,18 +55,25 @@ export const ChartPolarDistribution = () => {
                 grid: {
                     circular: true,
                     display: false,
-                    color: "#C1FF00"
+                },
+                ticks: {
+                    display: false,
                 },
                 angelLines: {
                     display: true,
                     color: "000",
                     lineWidth: 1
-                }
+                },
             }
         },
         elements: {
             line: {
                 tension: 1,
+            },
+        },
+        plugins: {
+            legend: {
+                display: false,
             },
         },
     }

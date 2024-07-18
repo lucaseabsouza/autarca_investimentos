@@ -17,6 +17,7 @@ export default function PageWallet() {
                     </span>
                 </div>
                 <div className="containerCardsInsights">
+                    <h1 className='titleCharts'>Distribuição</h1>
                     <ChartPolarDistribution/>
                 </div>
         </>
