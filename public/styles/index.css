@@ -23,7 +23,7 @@
         width: 8rem;
     }
 
-    .containerCardsInsights{
+    .containerCards{
         padding: 1rem;
         margin: 1rem;
 
@@ -32,11 +32,11 @@
         background-color: #EAEAEA;
     }
 
-    .itensCardsInsights{
+    .itensCards{
         margin: 0.5rem 0;
     }
 
-    .arrowCardsInsights{
+    .arrowCards{
         display: flex;
         justify-content: end;
     }
@@ -97,5 +97,25 @@
         border-radius: 0.5rem;
 
         background-color: #EAEAEA;
+    }
+
+    .containerThTableClasses{
+        width: min(90rem, 100% - 3rem);
+
+        margin-inline: auto;
+    }
+
+    .thTableClasses{
+        font-size: 1.5rem;
+
+        padding: 0 1rem;
+    }
+
+    .tdTableClasses{
+        text-align: center;
+
+        padding: 0.5rem 0;
+
+        font-weight: bold;
     }
 }

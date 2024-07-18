@@ -40,7 +40,7 @@ export const ChartPolarDistribution = () => {
                 ],
                 borderWidth: 10,
                 borderColor: "#EAEAEA",
-                borderRadius: 15,
+                borderRadius: 10,
                 hoverBackgroundColor: "#EAEAEA",
                 hoverBorderWidth: 10,
             },
@@ -50,19 +50,11 @@ export const ChartPolarDistribution = () => {
         responsive: true,
         scales: {
             r: {
-                suggestedMin: 0,
-                suggestedMax: 10,
                 grid: {
-                    circular: true,
                     display: false,
                 },
                 ticks: {
                     display: false,
-                },
-                angelLines: {
-                    display: true,
-                    color: "000",
-                    lineWidth: 1
                 },
             }
         },
@@ -73,7 +65,7 @@ export const ChartPolarDistribution = () => {
         },
         plugins: {
             legend: {
-                display: false,
+                display: true,
             },
         },
     }
