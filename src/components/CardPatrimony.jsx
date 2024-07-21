@@ -6,7 +6,7 @@ export default function CardPatrimony() {
         <>
             {infoCardInsights.map((info) => (
                 <div className='containerCards'>
-                    <h1 className='itensCards'>{info.titleCardInsights}</h1>
+                    <h1 className='titleCharts'>{info.titleCardInsights}</h1>
                     <h2 className='itensCards'>{info.valueCardInsights}</h2>
                     <p className='itensCards'>{info.detailsCardInsights}</p>
                     <span className='arrowCards' >

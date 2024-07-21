@@ -1,3 +1,7 @@
+:root{
+    --titleColor: #00692e;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -42,7 +46,9 @@
     }
 
     .titleCharts{
-        margin: 1rem 0 1rem 0.5rem;
+        margin: 1rem 0 1rem 0;
+        
+        color: var(--titleColor);
     }
 
     .chartLineProfitability{
@@ -106,6 +112,8 @@
     }
 
     .thTableClasses{
+        color: var(--titleColor);
+
         font-size: 1.5rem;
 
         padding: 0 1rem;

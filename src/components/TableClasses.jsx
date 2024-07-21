@@ -7,7 +7,7 @@ export default function TableClasses() {
                 <table className="containerThTableClasses">
                     <tbody>
                         <tr>
-                            <th className='thTableClasses'>Classes</th>
+                            <th className='thTableClasses'>Ativos</th>
                             <th className='thTableClasses'>%Ideal</th>
                             <th className='thTableClasses'>%Atual</th>
                         </tr>

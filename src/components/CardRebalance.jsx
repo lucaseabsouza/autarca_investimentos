@@ -4,7 +4,7 @@ export default function CardRebalance() {
     return (
         <>
             <div className='containerCards'>
-                <h1 className='itensCards'>Rebalanceamento</h1>
+                <h1 className='titleCharts'>Rebalanceamento</h1>
                 <h2 className='itensCards'>Invista o valor abaixo em ETFs</h2>
                 <p className='itensCards'>R$ 644,00</p>
                 <span className='arrowCards' >
