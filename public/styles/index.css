@@ -122,7 +122,11 @@
 
         font-size: 1.5rem;
 
-        padding: 0 1rem;
+        text-align: justify;
+    }
+
+    .thdTableClasses{
+        text-align: start;
     }
 
     .tdTableClasses{

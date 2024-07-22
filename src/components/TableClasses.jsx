@@ -8,31 +8,31 @@ export default function TableClasses() {
                     <tbody>
                         <tr>
                             <th className='thTableClasses'>Ativos</th>
-                            <th className='thTableClasses'>%Ideal</th>
-                            <th className='thTableClasses'>%Atual</th>
+                            <th className='thTableClasses' style={{textAlign: 'center'}}>Ideal</th>
+                            <th className='thTableClasses' style={{textAlign: 'center'}}>Atual</th>
                         </tr>
                         <tr>
-                            <td className="tdTableClasses">ETFs</td>
+                            <th className="thdTableClasses">ETFs</th>
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">13%</td>
                         </tr>
                         <tr>
-                            <td className="tdTableClasses">Criptomoedas</td>
+                            <th className="thdTableClasses">Criptomoedas</th>
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">15%</td>
                         </tr>
                         <tr>
-                            <td className="tdTableClasses">Renda Fixa</td>
+                            <th className="thdTableClasses">Renda Fixa</th>
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">20%</td>
                         </tr>
                         <tr>
-                            <td className="tdTableClasses">FIIs</td>
+                            <th className="thdTableClasses">FIIs</th>
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">22%</td>
                         </tr>
                         <tr>
-                            <td className="tdTableClasses">Ações</td>
+                            <th className="thdTableClasses">Ações</th>
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">30%</td>
                         </tr>
