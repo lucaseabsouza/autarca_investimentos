@@ -18,6 +18,9 @@
         align-items: center;
         justify-content: space-between;
 
+        position: sticky;
+        top: 0;
+
         padding: 0.5rem 1rem;
 
         background-color: black;
@@ -71,10 +74,14 @@
         border-radius: 0.5rem;
 
         padding: 0.5rem;
-        margin: 0.5rem 1rem;
+        margin: 0.5rem 1rem 0.5rem 0;
 
         color: #fff;
         background-color: #108142;
+    }
+
+    .containerBtnSelect{
+        display: block;
     }
 
     .btnSelect{
@@ -90,7 +97,7 @@
         border-radius: 0.5rem;
 
         padding: 0.5rem 1rem;
-        margin: 0.5rem 1rem;
+        margin: 0.5rem 1rem 0.5rem 0;
 
         color: #fff;
         background-color: #000;

@@ -20,6 +20,7 @@ export const DataChartLineProfitability = {
             borderColor: "#108142",
             tension: 0.5,
             fill: true,
+            pointBorderWidth: 5,
         },
     ],
 };
