@@ -13,7 +13,7 @@ import {
     Filler,
     } from 'chart.js';
 
-    ChartJS.register(
+ChartJS.register(
     CategoryScale, 
     LinearScale, 
     PointElement, 
