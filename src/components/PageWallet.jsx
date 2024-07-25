@@ -3,7 +3,7 @@ import Header from './Header';
 import CardRebalance from './CardRebalance';
 import { ChartPolarDistribution } from "./ChartPolarDistribution";
 import TableClasses from "./TableClasses";
-
+import { Link } from 'react-router-dom';
 
 export default function PageWallet() {
     return (
@@ -15,5 +15,6 @@ export default function PageWallet() {
                 <ChartPolarDistribution/>
             </div>
             <TableClasses/>
+            <Link to='/'>Patrimônio</Link>
         </>
     )}
