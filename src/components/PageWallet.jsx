@@ -15,6 +15,6 @@ export default function PageWallet() {
                 <ChartPolarDistribution/>
             </div>
             <TableClasses/>
-            <Link to='/'>Patrimônio</Link>
+            <Link className="nav-link" to='/'>Patrimônio</Link>
         </>
     )}

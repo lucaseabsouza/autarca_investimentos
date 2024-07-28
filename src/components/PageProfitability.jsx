@@ -10,7 +10,7 @@ export default function PageProfitability() {
             <Header/>
             <CardPatrimony/>
             <CardProfitability/>
-            <Link to='/carteira'>Carteira</Link>
-            <Link to='/proventos'>Proventos</Link>
+            <Link className="nav-link" to='/carteira'>Carteira</Link>
+            <Link className="nav-link" to='/proventos'>Proventos</Link>
         </>
     )}

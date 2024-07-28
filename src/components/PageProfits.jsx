@@ -6,9 +6,9 @@ export default function PageProfits() {
     return (
         <>
             <Header/>
-            <h1>Proventos</h1>
-            <Link to='/'>Patrimônio</Link>
-            <Link to='/carteira'>Carteira</Link>
+            <h1 className="titles">Proventos</h1>
+            <Link className="nav-link" to='/'>Patrimônio</Link>
+            <Link className="nav-link" to='/carteira'>Carteira</Link>
         </>
     )
 }
