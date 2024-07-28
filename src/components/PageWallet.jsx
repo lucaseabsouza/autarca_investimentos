@@ -11,7 +11,7 @@ export default function PageWallet() {
             <Header/>
             <CardRebalance/>
             <div className="containerCards">
-                <h1 className='titleCharts'>Distribuição</h1>
+                <h1 className='titles'>Distribuição</h1>
                 <ChartPolarDistribution/>
             </div>
             <TableClasses/>
