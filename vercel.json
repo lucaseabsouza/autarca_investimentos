@@ -1,10 +1,7 @@
 {
-    "rewrites":  [
-        {"source": "/(.*)", "destination": "/"}
-    ],
-    "routes": [
-        { "src": "/*", "dest": "/" },
-        { "src": "/carteira", "dest": "/carteira" },
-        { "src": "/proventos", "dest": "/proventos" }
+    "rewrites": [
+        { "source": "/*", "destination": "/" },
+        { "source": "/carteira", "destination": "/carteira" },
+        { "source": "/proventos", "destination": "/proventos" }
 ]
 }
