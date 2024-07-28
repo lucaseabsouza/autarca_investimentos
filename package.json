@@ -24,6 +24,7 @@
     "react-dom": "^18.3.1",
     "react-number-format": "^5.4.0",
     "react-router-dom": "^6.24.1",
+    "styled-components": "^6.1.12",
     "vercel": "^35.2.1"
   },
   "devDependencies": {
