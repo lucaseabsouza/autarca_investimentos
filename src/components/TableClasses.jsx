@@ -8,8 +8,8 @@ export default function TableClasses() {
                     <tbody>
                         <tr>
                             <th className='thTableClasses'>Ativos</th>
-                            <th className='thTableClasses' style={{textAlign: 'center'}}>Ideal</th>
-                            <th className='thTableClasses' style={{textAlign: 'center'}}>Atual</th>
+                            <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Ideal</th>
+                            <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Atual</th>
                         </tr>
                         <tr>
                             <th className="thdTableClasses">ETFs</th>
