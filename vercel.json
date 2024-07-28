@@ -3,8 +3,8 @@
         {"source": "/(.*)", "destination": "/"}
     ],
     "routes": [
-    { "src": "/*", "dest": "/" },
-    { "src": "/carteira", "dest": "/carteira" },
-    { "src": "/proventos", "dest": "/proventos" }
+        { "src": "/*", "dest": "/" },
+        { "src": "/carteira", "dest": "/carteira" },
+        { "src": "/proventos", "dest": "/proventos" }
 ]
 }
