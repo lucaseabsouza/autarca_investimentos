@@ -36,7 +36,7 @@ export const ChartLineProfitability = () => {
         scales: {
             y: {
                 grid: {
-                    display: false,
+                    display: true,
                 },
                 ticks: {
                     display: false,
@@ -44,7 +44,7 @@ export const ChartLineProfitability = () => {
             },
             x: {
                 grid: {
-                    display: false,
+                    display: true,
                 },
             },
         },

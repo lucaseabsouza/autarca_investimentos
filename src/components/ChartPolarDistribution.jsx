@@ -29,14 +29,13 @@ export const ChartPolarDistribution = () => {
         ],
         datasets: [
             {   
-                label: 'Distribuição',
                 data: [2560, 1952, 1652, 1265, 1095],
                 backgroundColor: [
                     '#000',
-                    '#11C561',
-                    '#6F9D83',
+                    '#586f92',
+                    '#0948a8',
                     '#7C7C7C',
-                    '#017736',
+                    '#2758c0',
                 ],
                 borderWidth: 5,
                 borderColor: "#EAEAEA",

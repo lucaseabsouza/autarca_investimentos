@@ -1,5 +1,9 @@
 :root{
-    --titleColor: #00692e;
+    --titleColor: #00317a;
+    --primaryColor: #174ea1;
+    --secondColor:  #586f92;
+    --backgroundColor: #EAEAEA;
+    --elements: #C7C7C7;
 }
 
 * {
@@ -23,7 +27,7 @@
 
         padding: 0.5rem 1rem;
 
-        background-color: black;
+        background-color: #f7f7f7;
     }
 
     .header img {
@@ -36,11 +40,44 @@
 
         border-radius: 0.5rem;
 
-        background-color: #EAEAEA;
+        background-color: var(--backgroundColor);
     }
 
-    .itensCards{
-        margin: 0.5rem 0;
+    .titles{
+        margin: 1rem 0 1rem 0;
+        
+        text-align: center;
+
+        font-size: 1.8rem;
+        font-weight: 700;
+
+        color: #000;
+    }
+
+    .subTitles{
+        margin: 1rem 0;
+
+        text-align: center;
+
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        color: var(--titleColor);
+    }
+
+    .descriptions{
+        margin: 1rem 0;
+
+        text-align: center;
+
+        font-size: 1rem;
+        font-weight: 400;
+
+        color: #000;
+    }
+
+    .highlights{
+        font-weight: 700;
     }
 
     .arrowCards{
@@ -48,18 +85,13 @@
         justify-content: end;
     }
 
-    .titleCharts{
-        margin: 1rem 0 1rem 0;
-        
-        color: var(--titleColor);
-    }
 
     .chartLineProfitability{
         margin: 1rem 0 0 0;
 
         border-radius: 0.5rem;
 
-        background-color: #EAEAEA;
+        background-color: var(--backgroundColor);
     }
 
     .insightProfitability{
@@ -76,7 +108,7 @@
         margin: 0.5rem 1rem 0.5rem 0;
 
         color: #fff;
-        background-color: #108142;
+        background-color: var(--primaryColor);
     }
 
     .containerBtnSelect{
@@ -89,6 +121,7 @@
         align-items: center;
 
         font-size: 1.5rem;
+        font-weight: bold;
 
         width: max-content;
 
@@ -98,23 +131,20 @@
         padding: 0.5rem 1rem;
         margin: 0.5rem 1rem 0.5rem 0;
 
-        color: #fff;
-        background-color: #000;
+        color: #000;
+        background-color: var(--elements);
     }
 
     .chartPolarDistribution{
-        padding: 1rem 0;
-        margin: 1rem 0 0 0;
-
         border-radius: 0.5rem;
 
-        background-color: #EAEAEA;
+        background-color: var(--backgroundColor);
     }
 
     .containerThTableClasses{
-        width: min(90rem, 100% - 3rem);
+        display: flex;
 
-        margin-inline: auto;
+        justify-content: center;
     }
 
     .thTableClasses{
@@ -122,18 +152,24 @@
 
         font-size: 1.5rem;
 
-        text-align: justify;
+        text-align: start;
+
+        padding: 0.5rem 1rem;
     }
 
     .thdTableClasses{
         text-align: start;
+
+        font-weight: 500;
+
+        padding: 0.5rem 1rem;
     }
 
     .tdTableClasses{
-        text-align: center;
+        text-align: end;
 
-        padding: 0.5rem 0;
+        padding: 0.5rem 1rem;
 
-        font-weight: bold;
+        font-weight: 500;
     }
 }

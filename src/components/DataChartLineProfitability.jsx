@@ -17,11 +17,12 @@ export const DataChartLineProfitability = {
         {
             label: "Profitability",
             data: [20, 45, 10, 60, 35, 50, 100, 90, 40, 15, 30, 70],
-            borderColor: "#108142",
-            pointBorderWidth: 7,
-            pointBorderColor: "#108142",
-            tension: 0.5,
+            borderColor: "#0948a8",
+            pointBorderWidth: 10,
+            pointBorderColor: "#0948a8",
+            tension: 0,
             fill: true,
+            backgroundColor: "#C7C7C7",
         },
     ],
 };
