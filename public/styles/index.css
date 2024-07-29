@@ -172,6 +172,8 @@
         text-align: start;
 
         padding: 0.5rem 1rem;
+
+        border-right: solid 0.5px;
     }
 
     .thdTableClasses{
@@ -180,6 +182,8 @@
         font-weight: 500;
 
         padding: 0.5rem 1rem;
+
+        border-right: solid 0.5px;
     }
 
     .tdTableClasses{
@@ -188,6 +192,22 @@
         padding: 0.5rem 1rem;
 
         font-weight: 500;
+
+        border-right: solid 0.5px;
+    }
+
+    .btnTableClasses{
+        margin: 0 0.5rem 0 0;
+    }
+
+    .containerThTableAnalise{
+        display: flex;
+
+        overflow-x: auto;
+    }
+
+    .containerThTableAnalise th{
+        text-wrap: nowrap;
     }
 
     .containerFooter{
