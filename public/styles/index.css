@@ -203,7 +203,7 @@
     .containerThTableAnalise{
         display: flex;
 
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 
     .containerThTableAnalise th{
