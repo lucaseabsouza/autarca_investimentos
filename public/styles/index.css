@@ -224,7 +224,7 @@
     .containerThTableAnalise{
         display: flex;
 
-        overflow-x: scroll;
+        overflow-x: scroll !important;
     }
 
     .containerThTableAnalise th{
