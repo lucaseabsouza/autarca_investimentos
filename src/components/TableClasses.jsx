@@ -73,10 +73,7 @@ export default function TableClasses() {
                         <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Aporte p/ equilíbrio</th>
                     </tr>
                     <tr>
-                        <th className="thdTableClasses">
-                            <FontAwesomeIcon icon={faSquareCaretDown} style={{color: "#00317a"}} className='btnTableClasses' ></FontAwesomeIcon>
-                                ETFs
-                        </th>
+                        <th className="thdTableClasses">ETFs</th>
                         <td className="tdTableClasses">1</td>
                         <td className="tdTableClasses">210</td>
                         <td className="tdTableClasses">280</td>
@@ -88,10 +85,7 @@ export default function TableClasses() {
                         <td className="tdTableClasses">644</td>
                     </tr>
                     <tr>
-                        <th className="thdTableClasses">
-                            <FontAwesomeIcon icon={faSquareCaretDown} style={{color: "#00317a"}} className='btnTableClasses' ></FontAwesomeIcon>
-                                Criptos
-                        </th>
+                        <th className="thdTableClasses">Bitcoin</th>
                         <td className="tdTableClasses">0,0001</td>
                         <td className="tdTableClasses">350.000</td>
                         <td className="tdTableClasses">345,000</td>
@@ -103,10 +97,7 @@ export default function TableClasses() {
                         <td className="tdTableClasses">429</td>
                     </tr>
                     <tr>
-                        <th className="thdTableClasses">
-                            <FontAwesomeIcon icon={faSquareCaretDown} style={{color: "#00317a"}} className='btnTableClasses' ></FontAwesomeIcon>
-                                Tesouro Selic
-                        </th>
+                        <th className="thdTableClasses">Tesouro Selic</th>
                         <td className="tdTableClasses">2</td>
                         <td className="tdTableClasses">750</td>
                         <td className="tdTableClasses">820</td>
@@ -118,10 +109,7 @@ export default function TableClasses() {
                         <td className="tdTableClasses">42</td>
                     </tr>
                     <tr>
-                        <th className="thdTableClasses">
-                            <FontAwesomeIcon icon={faSquareCaretDown} style={{color: "#00317a"}} className='btnTableClasses' ></FontAwesomeIcon>
-                                XPML11
-                        </th>
+                        <th className="thdTableClasses">XPML11</th>
                         <td className="tdTableClasses">20</td>
                         <td className="tdTableClasses">97</td>
                         <td className="tdTableClasses">150</td>
@@ -133,10 +121,7 @@ export default function TableClasses() {
                         <td className="tdTableClasses">258</td>
                     </tr>
                     <tr>
-                        <th className="thdTableClasses">
-                            <FontAwesomeIcon icon={faSquareCaretDown} style={{color: "#00317a"}} className='btnTableClasses' ></FontAwesomeIcon>
-                                VALE3
-                        </th>
+                        <th className="thdTableClasses">VALE3</th>
                         <td className="tdTableClasses">48</td>
                         <td className="tdTableClasses">52,60</td>
                         <td className="tdTableClasses">60</td>
