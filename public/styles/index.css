@@ -6,6 +6,7 @@
     --elements: #C7C7C7;
 }
 
+  /* Firefox */
   * {
     scrollbar-width: auto;
     scrollbar-color: #00317a #ffffff;
