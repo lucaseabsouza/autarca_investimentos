@@ -5,13 +5,9 @@ import {
     ArcElement,
     Title,
     Tooltip,
-    scales,
-    elements,
-    Ticks,
     } from 'chart.js';
 
 import ChartDataLabels from 'chartjs-plugin-datalabels'
-import { color } from 'chart.js/helpers';
 
     ChartJS.register(
         RadialLinearScale,
