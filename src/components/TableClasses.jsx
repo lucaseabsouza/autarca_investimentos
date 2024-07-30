@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareCaretDown } from '@fortawesome/free-solid-svg-icons/faSquareCaretDown'
 
 export default function TableClasses() {
     return (
@@ -43,7 +41,7 @@ export default function TableClasses() {
                 </table>
 
             </div>
-            <table className="containerCards containerThTableAnalise">
+            <table className="containerCards containerThTable" style={{justifyContent:"flex-start"}}>
                 <tbody style={{marginLeft: "1rem"}}>
                     <tr>
                         <th className='thTableClasses'>Ativos</th>

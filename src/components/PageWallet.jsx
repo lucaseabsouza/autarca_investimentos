@@ -15,6 +15,6 @@ export default function PageWallet() {
                 <ChartPolarDistribution/>
             </div>
             <TableClasses/>
-            <Footer></Footer>
+            <Footer/>
         </>
     )}

@@ -146,8 +146,7 @@
         padding: 0.5rem;
         margin: 0.5rem 1rem 0.5rem 0;
 
-        color: #fff;
-        background-color: var(--primaryColor);
+        color: var(--titleColor);
     }
 
     .containerBtnSelect{
@@ -159,7 +158,7 @@
 
         align-items: center;
 
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
 
         width: max-content;
@@ -167,8 +166,8 @@
         border: none;
         border-radius: 0.5rem;
 
-        padding: 0.5rem 1rem;
-        margin: 0.5rem 1rem 0.5rem 0;
+        padding: 0.5rem;
+        margin: 1rem;
 
         color: #000;
         background-color: var(--elements);
@@ -222,13 +221,12 @@
         margin: 0 0.5rem 0 0;
     }
 
-    .containerThTableAnalise{
+    .containerThTable{
         display: flex;
+        justify-content: center;
 
         overflow-x: scroll !important;
-    }
 
-    .containerThTableAnalise th{
         text-wrap: nowrap;
     }
 
