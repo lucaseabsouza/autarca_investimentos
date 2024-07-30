@@ -1,5 +1,6 @@
 import React from "react";
 import { ChartLineProfits } from './ChartLineProfits';
+import { ChartDoughnutProfits } from "./ChartDoughnut";
 
 export default function CardProfits() {
     return (
@@ -18,6 +19,10 @@ export default function CardProfits() {
                     </button>
                 </div>
                 <ChartLineProfits />
+            </div>
+            <div className="containerCards">
+                <h1 className='titles'>Proventos x Ativo</h1>
+                <ChartDoughnutProfits/>
             </div>
         </>
     )
