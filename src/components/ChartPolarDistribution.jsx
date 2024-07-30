@@ -9,13 +9,16 @@ import {
     elements,
     Ticks,
     } from 'chart.js';
-import { faL } from '@fortawesome/free-solid-svg-icons';
+
+import ChartDataLabels from 'chartjs-plugin-datalabels'
+import { color } from 'chart.js/helpers';
 
     ChartJS.register(
         RadialLinearScale,
         ArcElement,
         Title,
         Tooltip,
+        ChartDataLabels
     )
 
 export const ChartPolarDistribution = () => {
@@ -65,6 +68,9 @@ export const ChartPolarDistribution = () => {
         plugins: {
             legend: {
                 display: true,
+            },
+            datalabels: {
+                display: false,
             },
         },
     }
