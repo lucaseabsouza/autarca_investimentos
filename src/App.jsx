@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path='*' element={ <Navigate to='/' /> }></Route>
+        <Route path='*' element={ <Navigate to='/' /> }/>
         <Route path='/' element={ <PageProfitability/> } />
         <Route path='/carteira' element={ <PageWallet/> } />
         <Route path='/proventos' element={ <PageProfits/> } />
