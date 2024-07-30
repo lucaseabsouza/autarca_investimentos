@@ -1,7 +1,7 @@
 import React from "react";
 import infoCardInsights from './InfoCardInsights';
 
-export default function CardPatrimony() {
+export default function CardSelectPatrimonyAndProfits() {
     return (
         <>
             {infoCardInsights.map((info) => (
