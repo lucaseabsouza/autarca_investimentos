@@ -13,6 +13,8 @@ import {
     Filler,
     } from 'chart.js';
 
+import ChartDataLabels from 'chartjs-plugin-datalabels'
+
 ChartJS.register(
     CategoryScale, 
     LinearScale, 
@@ -23,6 +25,7 @@ ChartJS.register(
     Legend,
     plugins,
     Filler,
+    ChartDataLabels
     )
 
 export const ChartLineProfitability = () => {
@@ -31,6 +34,8 @@ export const ChartLineProfitability = () => {
         plugins: {
             legend: {
                 display: false,
+            },
+            ChartDataLabels: {
             },
         },
         scales: {
