@@ -17,7 +17,7 @@ import ChartDataLabels from 'chartjs-plugin-datalabels'
         ChartDataLabels
     )
 
-export const ChartPolarDistribution = () => {
+export const WalletChartPolarDistribution = () => {
     const DataChartPolarDistribution = {
         labels: [
             'Ações',

@@ -7,7 +7,6 @@ import {
     } from 'chart.js';
 
 import ChartDataLabels from 'chartjs-plugin-datalabels'
-import { color } from 'chart.js/helpers';
 
     ChartJS.register(
         ArcElement,
@@ -16,7 +15,7 @@ import { color } from 'chart.js/helpers';
         ChartDataLabels
     )
 
-export const ChartDoughnutProfits = () => {
+export const ProfitsChartDoughnut = () => {
     const DataChartDoughnutProfits = {
         labels: [
             'Ações',

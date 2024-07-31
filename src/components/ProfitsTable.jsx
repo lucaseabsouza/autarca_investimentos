@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TableProfits() {
+export default function ProfitsTable() {
     return (
         <>
             <div className="containerCards containerBtnSelect" >

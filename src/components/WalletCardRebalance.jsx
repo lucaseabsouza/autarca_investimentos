@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CardRebalance() {
+export default function WalletCardRebalance() {
     return (
         <>
             <div className='containerCards'>

@@ -27,8 +27,8 @@ ChartJS.register(
     ChartDataLabels
     )
 
-export const ChartLineProfits = () => {
-    const DataChartLineProfits = {
+export const InitialChartLineProfitability = () => {
+    const DataChartLineProfitability = {
         labels: [
             "1",
             "2",
@@ -45,8 +45,8 @@ export const ChartLineProfits = () => {
         ],
         datasets: [
             {
-                label: "Profits",
-                data: [30, 10, 12, 32, 31, 50, 30, 19, 35, 21, 38, 52],
+                label: "Profitability",
+                data: [20, 45, 10, 60, 35, 50, 100, 90, 40, 15, 30, 70],
                 borderColor: "#0948a8",
                 tension: 0,
                 fill: true,
@@ -86,5 +86,5 @@ export const ChartLineProfits = () => {
         },
     };
 
-    return <Line className='chartLines' options={options} data={DataChartLineProfits} />
+    return <Line className='chartLines' options={options} data={DataChartLineProfitability} />
 }

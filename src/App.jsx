@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import PageProfitability from './components/PageProfitability';
-import PageWallet from './components/PageWallet';
-import PageProfits from './components/PageProfits';
+import InitialPageProfitability from './components/InitialPageProfitability';
+import WalletPage from './components/WalletPage';
+import ProfitsPage from './components/ProfitsPage';
 
 
 export default function App() {
@@ -10,9 +10,9 @@ export default function App() {
   return (
       <Routes>
         <Route path='*' element={ <Navigate to='/' /> }/>
-        <Route path='/' element={ <PageProfitability/> } />
-        <Route path='/carteira' element={ <PageWallet/> } />
-        <Route path='/proventos' element={ <PageProfits/> } />
+        <Route path='/' element={ <InitialPageProfitability/> } />
+        <Route path='/carteira' element={ <WalletPage/> } />
+        <Route path='/proventos' element={ <ProfitsPage/> } />
       </Routes>
   )
 }
