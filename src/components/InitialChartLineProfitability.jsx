@@ -10,6 +10,7 @@ import {
     Legend,
     plugins,
     Filler,
+    layouts,
     } from 'chart.js';
 
 import ChartDataLabels from 'chartjs-plugin-datalabels'
@@ -83,6 +84,9 @@ export const InitialChartLineProfitability = () => {
                     display: true,
                 },
             },
+        },
+        layout: {
+            padding: 20
         },
     };
 

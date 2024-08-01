@@ -45,6 +45,9 @@ export const ProfitsChartDoughnut = () => {
                 color: "#fff",
             },
         },
+        layout: {
+            padding: 80
+        },
     }
     return <Doughnut className="chartdoughnutprofits" options={options} data={DataChartDoughnutProfits} />
 }

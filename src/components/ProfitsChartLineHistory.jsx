@@ -84,6 +84,9 @@ export const ProfitsChartLineHistory = () => {
                 },
             },
         },
+        layout: {
+            padding: 20
+        },
     };
 
     return <Line className='chartLines' options={options} data={DataChartLineProfits} />
