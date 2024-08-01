@@ -2,7 +2,7 @@
     --titleColor: #00317a;
     --primaryColor: #174ea1;
     --secondColor:  #586f92;
-    --backgroundColor: #EAEAEA;
+    --backgroundColor: #f7f7f7;
     --elements: #C7C7C7;
 }
 
@@ -39,210 +39,222 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-
-@media (max-width: 768px) {
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        position: sticky;
-        top: 0;
-
-        padding: 0.5rem 1rem;
-
-        background-color: #f7f7f7;
-    }
-
-    .header img {
-        width: 8rem;
-    }
-
-    .nav-link{
-        display: flex;
-        justify-content: center;
-
-        font-size: 1.5rem;
-
-        padding: 0.5rem;
-
-        color: var(--titleColor);
-    }
-
-    .nav-link:hover{
-        font-weight: bold;
-    }
-
+@media (min-width: 769px) {
     .containerCards{
-        padding: 1rem;
-        margin: 1rem;
-
-        border-radius: 0.5rem;
-
-        background-color: var(--backgroundColor);
+        width: 80%;
     }
 
-    .titles{
-        margin: 1rem 0 1rem 0;
-        
-        text-align: center;
-
-        font-size: 1.8rem;
-        font-weight: 700;
-
-        color: #000;
-    }
-
-    .subTitles{
-        margin: 1rem 0;
-
-        text-align: center;
-
-        font-size: 1.5rem;
-        font-weight: 600;
-
-        color: var(--titleColor);
-    }
-
-    .descriptions{
-        margin: 1rem 0;
-
-        text-align: center;
-
-        font-size: 1rem;
-        font-weight: 400;
-
-        color: #000;
-    }
-
-    .highlights{
-        font-weight: 700;
-    }
-
-    .arrowCards{
-        display: flex;
-        justify-content: end;
-    }
-
-
-    .chartLines{
-        margin: 1rem 0 0 0;
-
-        border-radius: 0.5rem;
-
-        background-color: var(--backgroundColor);
-    }
-
-    .insights{
-        display: inline-flex;
-
-        font-weight: bold;
-        font-size: 1.5rem;
-
-        min-width: max-content;
-
-        border-radius: 0.5rem;
-
-        padding: 0.5rem;
-        margin: 0.5rem 1rem 0.5rem 0;
-
-        color: var(--titleColor);
-    }
-
-    .containerBtnSelect{
-        display: block;
-    }
-
-    .btnSelect{
-        display: inline-flex;
-
-        align-items: center;
-
-        font-size: 1rem;
-        font-weight: bold;
-
-        width: max-content;
-
-        border: none;
-        border-radius: 0.5rem;
-
-        padding: 0.5rem;
-        margin: 1rem;
-
-        color: #000;
-        background-color: var(--elements);
-    }
-
-    .chartPolarDistribution{
-        border-radius: 0.5rem;
-
-        background-color: var(--backgroundColor);
-    }
-
-    .containerThTableClasses{
-        display: flex;
-
-        justify-content: center;
-    }
-
-    .thTableClasses{
-        color: var(--titleColor);
-
-        font-size: 1.5rem;
-
-        text-align: start;
-
-        padding: 0.5rem 1rem 0 0;
-
-        border-right: solid 0.5px;
-    }
-
-    .thdTableClasses{
-        text-align: start;
-
-        font-weight: 500;
-
-        padding: 0.5rem 1rem 0 0;
-
-        border-right: solid 0.5px;
-    }
-
-    .tdTableClasses{
-        text-align: end;
-
-        padding: 0.5rem 1rem;
-
-        font-weight: 500;
-
-        border-right: solid 0.5px;
-    }
-
-    .btnTableClasses{
-        margin: 0 0.5rem 0 0;
-    }
-
-    .containerThTable{
+    .container{
         display: flex;
         justify-content: center;
 
-        overflow-x: scroll !important;
+        margin: auto;
 
-        text-wrap: nowrap;
+        width: 60%;
     }
+}
 
-    .containerFooter{
-        background-color: var(--backgroundColor);
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-        height: max-content;
+    position: sticky;
+    top: 0;
 
-        padding: 1rem;
-    }
+    padding: 0.5rem 1rem;
 
-    .copyWriter{
-        color: #000;
-    }
+    background-color: var(--backgroundColor);
+}
 
-    .copyWriter:hover{
-        font-weight: 700;
-    }
+.header img {
+    width: 8rem;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.5rem;
+
+    padding: 0.5rem;
+
+    color: var(--titleColor);
+}
+
+.nav-link:hover{
+    font-weight: bold;
+}
+
+.containerCards{
+    padding: 1rem;
+    margin: 1rem;
+
+    border-radius: 0.5rem;
+
+    background-color: var(--backgroundColor);
+}
+
+.titles{
+    margin: 1rem 0 1rem 0;
+    
+    text-align: center;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    color: #000;
+}
+
+.subTitles{
+    margin: 1rem 0;
+
+    text-align: center;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    color: var(--titleColor);
+}
+
+.descriptions{
+    margin: 1rem 0;
+
+    text-align: center;
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: #000;
+}
+
+.highlights{
+    font-weight: 700;
+}
+
+.arrowCards{
+    display: flex;
+    justify-content: end;
+}
+
+
+.chartLines{
+    margin: 1rem 0 0 0;
+
+    border-radius: 0.5rem;
+
+    background-color: var(--backgroundColor);
+}
+
+.insights{
+    display: inline-flex;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    min-width: max-content;
+
+    border-radius: 0.5rem;
+
+    padding: 0.5rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+
+    color: var(--titleColor);
+}
+
+.containerBtnSelect{
+    display: block;
+}
+
+.btnSelect{
+    display: inline-flex;
+
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    width: max-content;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    padding: 0.5rem;
+    margin: 1rem;
+
+    color: #000;
+    background-color: var(--elements);
+}
+
+.chartPolarDistribution{
+    border-radius: 0.5rem;
+
+    background-color: var(--backgroundColor);
+}
+
+.containerThTableClasses{
+    display: flex;
+
+    justify-content: center;
+}
+
+.thTableClasses{
+    color: var(--titleColor);
+
+    font-size: 1.5rem;
+
+    text-align: start;
+
+    padding: 0.5rem 1rem 0 0;
+
+    border-right: solid 0.5px;
+}
+
+.thdTableClasses{
+    text-align: start;
+
+    font-weight: 500;
+
+    padding: 0.5rem 1rem 0 0;
+
+    border-right: solid 0.5px;
+}
+
+.tdTableClasses{
+    text-align: end;
+
+    padding: 0.5rem 1rem;
+
+    font-weight: 500;
+
+    border-right: solid 0.5px;
+}
+
+.btnTableClasses{
+    margin: 0 0.5rem 0 0;
+}
+
+.containerThTable{
+    display: flex;
+    justify-content: center;
+
+    overflow-x: scroll !important;
+
+    text-wrap: nowrap;
+}
+
+.containerFooter{
+    background-color: var(--backgroundColor);
+
+    height: max-content;
+
+    padding: 1rem;
+}
+
+.copyWriter{
+    color: #000;
+}
+
+.copyWriter:hover{
+    font-weight: 700;
 }
