@@ -3,7 +3,7 @@
     --primaryColor: #174ea1;
     --secondColor:  #586f92;
     --backgroundColor: #f7f7f7;
-    --elements: #C7C7C7;
+    --elements: #cadbf7;
 }
 
   /* Firefox */
@@ -41,16 +41,23 @@
 
 @media (min-width: 769px) {
     .containerCards{
-        width: 80%;
+        width: 60%;
     }
 
     .container{
         display: flex;
         justify-content: center;
 
-        margin: auto;
+        margin: 0 auto;
 
+        width: 100%;
+
+    }
+
+    .containerProfitsChartDoughnut{
         width: 60%;
+
+        margin: 1rem auto;
     }
 }
 
