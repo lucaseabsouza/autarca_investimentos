@@ -1,5 +1,5 @@
 import React from "react";
-import InitialChartLineProfitability from './InitialChartLineProfitability';
+import { InitialChartLineProfitability } from './InitialChartLineProfitability';
 
 export default function InitialCardProfitability() {
     return (
