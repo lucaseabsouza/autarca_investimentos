@@ -95,10 +95,16 @@
     flex-direction: column;
     flex-wrap: nowrap;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 
+    color: #000;
+
     text-align: end;
+}
+
+.items{
+    padding: 0.7rem;
 }
 
 .menuClose .list .listItems{

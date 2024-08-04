@@ -21,9 +21,9 @@ export default function DefaultHeader() {
           <div className={active ? "menu menuOpen" : "menu menuClose"}>
             <div className='list'>
               <ul className='listItems'>
-                <li><Link to="/">Início</Link></li>
-                <li><Link to="/carteira">Carteira</Link></li>
-                <li><Link to="/proventos">Proventos</Link></li>
+                <li className='items'><Link to="/">Início</Link></li>
+                <li className='items'><Link to="/carteira">Carteira</Link></li>
+                <li className='items'><Link to="/proventos">Proventos</Link></li>
               </ul>
             </div>
           </div>
