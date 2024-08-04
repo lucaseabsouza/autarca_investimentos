@@ -240,8 +240,9 @@
 
 .containerThTableClasses{
     display: flex;
-
     justify-content: center;
+
+    border-collapse: collapse;
 }
 
 .thTableClasses{
@@ -264,6 +265,11 @@
     padding: 0.5rem 1rem 0 0;
 
     border-right: solid 0.5px;
+
+    position: sticky;
+    z-index: 1000;
+    background-color: var(--backgroundColor);
+    left: -16px;
 }
 
 .tdTableClasses{
@@ -283,6 +289,8 @@
 .containerThTable{
     display: flex;
     justify-content: center;
+
+    border-collapse: collapse;
 
     overflow-x: scroll !important;
 
