@@ -1,23 +1,32 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons/faBars'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
+import { Link } from 'react-router-dom';
 
 export default function DefaultHeader() {
+  const [active, setMode] = useState(false);
+  const ToggleMode = () => {
+    setMode(!active);
+  }
 
   return (
     <>
       <div className='header'>
-        <span>
-        </span>
         <Link to="/"><img src='/imgs/logo_bg_white.png'/></Link>
         <nav>
-          <FontAwesomeIcon icon={faBars} style={{color: "#000"}} id='btn-mobile' aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir Menu"/>
-          <ul id='menu'>
-            <li><Link to="/"></Link></li>
-            <li><Link to="/carteira"></Link></li>
-            <li><Link to="/proventos"></Link></li>
-          </ul>
+          <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
+            <FontAwesomeIcon className='burguer burguerIcon' icon={faBars} style={{color: "#000"}} aria-label="Abrir Menu"/>
+          </div>
+          <div className={active ? "menu menuOpen" : "menu menuClose"}>
+            <div className='list'>
+              <ul className='listItems'>
+                <li><Link to="/">Início</Link></li>
+                <li><Link to="/carteira">Carteira</Link></li>
+                <li><Link to="/proventos">Proventos</Link></li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </>

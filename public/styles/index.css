@@ -78,6 +78,37 @@
     width: 8rem;
 }
 
+.icon{
+    cursor: pointer;
+}
+
+.iconActive {
+    text-align: end;
+}
+
+.burguer, .iconActive, .menuOpen, .list, .listItems{
+    transition: 0.5s;
+}
+
+.menuOpen .list .listItems{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    text-align: end;
+}
+
+.menuClose .list .listItems{
+    display: none;
+}
+
+.list .listItems li:hover {
+    font-weight: 700;
+}
+
 .nav-link{
     display: flex;
     justify-content: center;
@@ -260,6 +291,7 @@
 
 .copyWriter{
     color: #000;
+    font-weight: 600;
 }
 
 .copyWriter:hover{
