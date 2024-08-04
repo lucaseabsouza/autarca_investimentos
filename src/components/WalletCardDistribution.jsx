@@ -7,7 +7,9 @@ export default function WalletCardDistribution() {
             <div className="container">
                 <div className="containerCards">
                     <h1 className='titles'>Distribuição</h1>
-                    <WalletChartPolarDistribution/>
+                    <div className="containerWalletChartPolarDistribution">
+                        <WalletChartPolarDistribution/>
+                    </div>
                 </div>
             </div>
         </>
