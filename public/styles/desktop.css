@@ -1,0 +1,21 @@
+@media (min-width: 769px) {
+    .containerCards{
+        width: 60%;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+
+        margin: 0 auto;
+
+        width: 60%;
+
+    }
+
+    .containerProfitsChartDoughnut, .containerWalletChartPolarDistribution{
+        width: 60%;
+
+        margin: 1rem auto;
+    }
+}

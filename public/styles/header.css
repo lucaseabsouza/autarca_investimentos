@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+
+    padding: 0.5rem 1rem;
+
+    background-color: var(--backgroundColor);
+}
+
+.header img {
+    width: 8rem;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.iconActive {
+    text-align: end;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    text-align: end;
+}
+
+.items{
+    padding: 0.7rem;
+}
+
+.items a{
+    color: #242424;
+}
+
+.menuClose .list .listItems{
+    display: none;
+}
+
+.list .listItems li:hover {
+    font-weight: 700;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.5rem;
+
+    padding: 0.5rem;
+
+    color: var(--titleColor);
+}
+
+.nav-link:hover{
+    font-weight: bold;
+}

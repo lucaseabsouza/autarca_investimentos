@@ -1,0 +1,40 @@
+:root{
+    --titleColor: #00317a;
+    --primaryColor: #174ea1;
+    --secondColor:  #586f92;
+    --backgroundColor: #f7f7f7;
+    --elements: #cadbf7;
+}
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #00317a #ffffff;
+}
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00317a;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

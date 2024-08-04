@@ -1,0 +1,59 @@
+
+.containerThTableClasses{
+    display: flex;
+    justify-content: center;
+
+    border-collapse: collapse;
+}
+
+.thTableClasses{
+    color: var(--titleColor);
+
+    font-size: 1.5rem;
+
+    text-align: start;
+
+    padding: 0.5rem 1rem 0 0;
+
+    border-right: solid 0.5px;
+}
+
+.thdTableClasses{
+    text-align: start;
+
+    font-weight: 500;
+
+    padding: 0.5rem 1rem 0 0;
+
+    border-right: solid 0.5px;
+
+    position: sticky;
+    z-index: 1000;
+    background-color: var(--backgroundColor);
+    left: -16px;
+}
+
+.tdTableClasses{
+    text-align: end;
+
+    padding: 0.5rem 1rem;
+
+    font-weight: 500;
+
+    border-right: solid 0.5px;
+}
+
+.btnTableClasses{
+    margin: 0 0.5rem 0 0;
+}
+
+.containerThTable{
+    display: flex;
+    justify-content: center;
+
+    border-collapse: collapse;
+
+    overflow-x: scroll !important;
+
+    text-wrap: nowrap;
+}

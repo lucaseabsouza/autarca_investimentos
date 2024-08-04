@@ -1,0 +1,16 @@
+.containerFooter{
+    background-color: var(--backgroundColor);
+
+    height: max-content;
+
+    padding: 1rem;
+}
+
+.copyWriter{
+    color: #000;
+    font-weight: 600;
+}
+
+.copyWriter:hover{
+    font-weight: 700;
+}

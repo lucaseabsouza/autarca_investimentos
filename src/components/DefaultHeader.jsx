@@ -16,7 +16,7 @@ export default function DefaultHeader() {
         <Link to="/"><img src='/imgs/logo_bg_white.png'/></Link>
         <nav>
           <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
-            <FontAwesomeIcon className='burguer burguerIcon' icon={faBars} style={{color: "#000"}} aria-label="Abrir Menu"/>
+            <FontAwesomeIcon icon={faBars} style={{color: "#000"}} aria-label="Abrir Menu"/>
           </div>
           <div className={active ? "menu menuOpen" : "menu menuClose"}>
             <div className='list'>

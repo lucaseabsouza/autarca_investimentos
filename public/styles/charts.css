@@ -1,0 +1,13 @@
+.chartLines{
+    margin: 1rem 0 0 0;
+
+    border-radius: 0.5rem;
+
+    background-color: var(--backgroundColor);
+}
+
+.chartPolarDistribution{
+    border-radius: 0.5rem;
+
+    background-color: var(--backgroundColor);
+}
