@@ -43,6 +43,10 @@ export const ProfitsChartDoughnut = () => {
             datalabels: {
                 display: true,
                 color: "#fff",
+                font: {
+                    size: 15,
+                    weight: "bold",
+                },
             },
         },
     }
