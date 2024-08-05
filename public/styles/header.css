@@ -4,19 +4,34 @@
     justify-content: space-between;
 
     position: sticky;
-    top: 0;
+    top: 0.5rem;
 
     padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
 
-    background-color: var(--backgroundColor);
+    background-color: var(--primaryColor);
+
+    border-radius: 0.5rem;
 }
 
 .header img {
     width: 8rem;
 }
 
+.headerOpen{
+    justify-content: end;
+}
+
+.logoOpen{
+    display: none;
+}
+
 .icon{
     cursor: pointer;
+
+    margin-right: 1rem;
+
+    font-size: 1.5rem;
 }
 
 .iconActive {
@@ -28,7 +43,6 @@
     flex-direction: column;
 
     font-size: 1.2rem;
-    font-weight: 600;
 
     text-align: end;
 }
@@ -38,7 +52,7 @@
 }
 
 .items a{
-    color: #242424;
+    color: #fff;
 }
 
 .menuClose .list .listItems{
@@ -46,7 +60,7 @@
 }
 
 .list .listItems li:hover {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .nav-link{
