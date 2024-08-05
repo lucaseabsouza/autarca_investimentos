@@ -44,8 +44,7 @@ export const ProfitsChartDoughnut = () => {
                 display: true,
                 color: "#fff",
                 font: {
-                    size: 15,
-                    weight: "bold",
+                    size: 12,
                 },
             },
         },
