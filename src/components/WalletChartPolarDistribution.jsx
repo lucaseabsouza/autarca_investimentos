@@ -66,7 +66,11 @@ export const WalletChartPolarDistribution = () => {
                 display: true,
             },
             datalabels: {
-                display: false,
+                display: true,
+                color: "#fff",
+                font: {
+                    size: 12,
+                },
             },
         },
     }
