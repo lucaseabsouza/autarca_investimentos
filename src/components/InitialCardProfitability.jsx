@@ -1,14 +1,9 @@
 import React from "react";
-import { useState } from 'react';
 import { InitialChartLineProfitability } from './InitialChartLineProfitability';
 import InitialBtnSelectPeriod from './InitialBtnSelectPeriod'
 import InitialBtnSelectClass from "./InitialBtnSelectClass";
 
 export default function InitialCardProfitability() {
-    const [active, setMode] = useState(false);
-    const ToggleMode = () => {
-        setMode(!active);
-}
     return (
         <>
             <div className="container">
