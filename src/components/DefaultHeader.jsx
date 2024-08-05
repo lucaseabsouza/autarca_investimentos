@@ -12,11 +12,13 @@ export default function DefaultHeader() {
 
   return (
     <>
-      <div className='header'>
-        <Link to="/"><img src='/imgs/logo_bg_white.png'/></Link>
+      <div className={active ? "header headerOpen" : "header headerClose"}>
+        <div className={active ? "logo logoOpen" : "logo logoClose"}>
+          <Link to="/"><img src='/imgs/logo_bg_black.png'/></Link>
+        </div>
         <nav>
           <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
-            <FontAwesomeIcon icon={faBars} style={{color: "#000"}} aria-label="Abrir Menu"/>
+            <FontAwesomeIcon icon={faBars} style={{color: "#fff"}} aria-label="Abrir Menu"/>
           </div>
           <div className={active ? "menu menuOpen" : "menu menuClose"}>
             <div className='list'>
