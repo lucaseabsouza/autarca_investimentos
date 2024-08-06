@@ -51,7 +51,7 @@ export const InitialChartLineProfitability = () => {
                 borderColor: "#272727",
                 tension: 0,
                 fill: true,
-                backgroundColor: "#9c9c9c",
+                backgroundColor: "#d4d4d4",
                 datalabels: {
                     color: "#FFF",
                     backgroundColor: "#0948a8",
