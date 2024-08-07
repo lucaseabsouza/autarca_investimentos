@@ -26,10 +26,10 @@ export const ProfitsChartDoughnut = () => {
                 data: [2560, 1952],
                 backgroundColor: [
                     '#174ea1',
-                    '#272727',
+                    '#525252',
                 ],
                 borderWidth: 5,
-                borderColor: "#EAEAEA",
+                borderColor: "#292929",
                 borderRadius: 8,
                 hoverBackgroundColor: "#EAEAEA",
                 hoverBorderWidth: 5,
@@ -42,10 +42,16 @@ export const ProfitsChartDoughnut = () => {
         plugins: {
             datalabels: {
                 display: true,
-                color: "#fff",
+                color: "#d4d4d4",
                 font: {
                     size: 12,
                 },
+            },
+            legend: {
+                display: true,
+                labels: {
+                    color: "#d4d4d4",
+                }
             },
         },
     }

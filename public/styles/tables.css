@@ -4,10 +4,11 @@
     justify-content: center;
 
     border-collapse: collapse;
+
 }
 
 .thTableClasses{
-    color: var(--titleColor);
+    color: var(--secondColor);
 
     font-size: 1.5rem;
 
@@ -19,6 +20,8 @@
 }
 
 .thdTableClasses{
+    color: var(--secondColor);
+
     text-align: start;
 
     font-weight: 500;
@@ -28,12 +31,14 @@
     border-right: solid 0.5px;
 
     position: sticky;
+    background-color: var(--elements);
     z-index: 1000;
-    background-color: var(--backgroundColor);
     left: -16px;
 }
 
 .tdTableClasses{
+    color: var(--secondColor);
+
     text-align: end;
 
     padding: 0.5rem 1rem;

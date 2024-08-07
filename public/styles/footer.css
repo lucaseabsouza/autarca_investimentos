@@ -1,13 +1,13 @@
 .containerFooter{
-    background-color: var(--backgroundColor);
+    background-color: var(--elements);
 
-    height: max-content;
+    height: 100%;
 
     padding: 1rem;
 }
 
 .copyWriter{
-    color: #000;
+    color: var(--secondColor);
     font-weight: 600;
 }
 

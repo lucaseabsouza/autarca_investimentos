@@ -9,7 +9,7 @@
     padding: 0.5rem 1rem;
     margin: 0.5rem;
 
-    background-color: var(--titleColor);
+    background-color: #252525;
 
     border-radius: 0.5rem;
 }
@@ -52,7 +52,7 @@
 }
 
 .items a{
-    color: #fff;
+    color: var(--secondColor);
 }
 
 .menuClose .list .listItems{
@@ -71,7 +71,7 @@
 
     padding: 0.5rem;
 
-    color: var(--titleColor);
+    color: var(--secondColor);
 }
 
 .nav-link:hover{

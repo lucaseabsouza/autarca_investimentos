@@ -48,13 +48,13 @@ export const InitialChartLineProfitability = () => {
             {
                 label: "Profitability",
                 data: [20, 45, 10, 60, 35, 50, 100, 90, 40, 15, 30, 70],
-                borderColor: "#272727",
                 tension: 0,
                 fill: true,
-                backgroundColor: "#d4d4d4",
+                backgroundColor: "#404040",
+                borderColor: "#0948a8",
                 datalabels: {
-                    color: "#FFF",
-                    backgroundColor: "#0948a8",
+                    color: "#d4d4d4",
+                    backgroundColor: "#023074",
                     borderRadius: 5,
                     clamp: true,
                 }
@@ -68,21 +68,6 @@ export const InitialChartLineProfitability = () => {
                 display: false,
             },
             ChartDataLabels: {
-            },
-        },
-        scales: {
-            y: {
-                grid: {
-                    display: true,
-                },
-                ticks: {
-                    display: false,
-                }
-            },
-            x: {
-                grid: {
-                    display: true,
-                },
             },
         },
         layout: {
