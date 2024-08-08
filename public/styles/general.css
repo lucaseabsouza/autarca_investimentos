@@ -1,9 +1,10 @@
 :root{
     --primaryColor: #353535;
     --secondColor:  #d4d4d4;
-    --backgroundColor: #121212;
-    --elements: #292929;
-    --focus: #0948A8;
+    --titles: #569aff;
+    --backgroundColor: #292929;
+    --elements: #161616;
+    --focus: #08377e;
 }
 
   /* Firefox */
