@@ -37,7 +37,7 @@ export const WalletChartPolarDistribution = () => {
                     '#2758c0',
                 ],
                 borderWidth: 5,
-                borderColor: "#292929",
+                borderColor: "#161616",
                 borderRadius: 8,
                 hoverBackgroundColor: "#EAEAEA",
                 hoverBorderWidth: 5,

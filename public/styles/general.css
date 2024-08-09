@@ -10,7 +10,7 @@
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: var(--focus) #292929;
+    scrollbar-color: var(--focus) #1b1b1b;
 }
 
   /* Chrome, Edge, and Safari */
