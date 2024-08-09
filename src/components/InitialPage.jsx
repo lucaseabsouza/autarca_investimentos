@@ -15,7 +15,7 @@ export default function InitialPageProfitability() {
 
             <CardsInsights
                 title = "Patrimônio"
-                subTitle = "R$ 45.678,90"
+                subTitle = "R$ 8.479"
                 description = "+20% nos últimos 12 meses"
             />
 
@@ -27,8 +27,8 @@ export default function InitialPageProfitability() {
 
             <CardsChart
                 title = "Rentabilidade"
-                insight1 = "R$ 11.325,60"
-                insight2 = "+5,26%"
+                insight1 = "R$ 170,00"
+                insight2 = "+2,05%"
                 btn1 = <InitialBtnSelectPeriod/>
                 btn2 = <InitialBtnSelectClass/>
                 chart= <InitialChartLineProfitability/>

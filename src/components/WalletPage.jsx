@@ -2,10 +2,10 @@ import React from "react";
 
 import DefaultHeader from './DefaultHeader';
 import CardsInsights from "./CardsInsights";
+import WalletTableAnalyze from "./WalletTableAnalyze";
 import CardsChart from './CardsCharts';
 import { WalletChartPolarDistribution } from "./WalletChartPolarDistribution";
 import WalletTableClasses from "./WalletTableClasses";
-import WalletTableAnalyze from "./WalletTableAnalyze";
 import DefaultFooter from "./DefaultFooter";
 
 export default function WalletPage() {
@@ -16,12 +16,12 @@ export default function WalletPage() {
                 title = "Rebalanceamento"
                 subTitle = "Invista R$ 644,00 em ETFs"
                 />
+            <WalletTableAnalyze/>
             <CardsChart
                 title = "Distribuição"
                 chart=<WalletChartPolarDistribution/>
             />
             <WalletTableClasses/>
-            <WalletTableAnalyze/>
             <DefaultFooter/>
         </>
     )}
