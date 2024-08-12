@@ -8,11 +8,11 @@ export default function ProfitsTable() {
     return (
         <>
             <div className="container">
-                <div className="containerCards containerBtnSelect" >
-                <div style={{display: "flex", justifyContent: "center"}}>
-                <InitialBtnSelectYear/>
-                <InitialBtnSelectMonth/>
-                <InitialBtnSelectClass/>
+                <div className="containerCards">
+                <div className="containerBtnSelect">
+                    <InitialBtnSelectYear/>
+                    <InitialBtnSelectMonth/>
+                    <InitialBtnSelectClass/>
                 </div>
                     <table className="containerThTable">
                         <tbody style={{marginLeft: "1rem"}}>
