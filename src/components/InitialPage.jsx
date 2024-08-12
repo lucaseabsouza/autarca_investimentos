@@ -29,7 +29,7 @@ export default function InitialPageProfitability() {
             <CardsChart
                 title = "Rentabilidade"
                 insight1 = "R$ 170"
-                insight2 = "+2,05%"
+                insight2 = "+2%"
                 btn1 = <InitialBtnSelectYear/>
                 btn2 = <InitialBtnSelectMonth/>
                 btn3 = <InitialBtnSelectClass/>
