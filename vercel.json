@@ -2,6 +2,7 @@
     "rewrites": [
         { "source": "/", "destination": "/" },
         { "source": "/carteira", "destination": "/carteira" },
-        { "source": "/proventos", "destination": "/proventos" }
+        { "source": "/proventos", "destination": "/proventos" },
+        { "source": "/notificacoes", "destination": "/notificacoes" }
 ]
 }

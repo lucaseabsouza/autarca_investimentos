@@ -63,6 +63,13 @@
     font-weight: 500;
 }
 
+.list .listItems li a{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
 .nav-link{
     display: flex;
     justify-content: center;
