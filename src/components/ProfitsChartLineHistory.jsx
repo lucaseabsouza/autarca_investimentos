@@ -50,7 +50,6 @@ export const ProfitsChartLineHistory = () => {
                 borderColor: "#0948a8",
                 tension: 0,
                 fill: true,
-                backgroundColor: "#404040",
                 datalabels: {
                     color: "#d4d4d4",
                     backgroundColor: "#023074",
