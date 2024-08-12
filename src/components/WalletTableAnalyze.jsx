@@ -44,13 +44,13 @@ export default function WalletTableAnalyze() {
                             <td className="tdTableClasses">100%</td>
                             <td className="tdTableClasses">0,00367</td>
                             <td className="tdTableClasses">350.000</td>
-                            <td className="tdTableClasses">345,000</td>
+                            <td className="tdTableClasses">345.000</td>
                             <td className="tdTableClasses">-30</td>
-                            <td className="tdTableClasses">-2,32%</td>
+                            <td className="tdTableClasses">-2%</td>
                         </tr>
                         <tr>
                             <th className="thdTableClasses">Tesouro Selic</th>
-                            <td className="tdTableClasses">43,80</td>
+                            <td className="tdTableClasses">44</td>
                             <td className="tdTableClasses">1.652</td>
                             <td className="tdTableClasses">1.695</td>
                             <td className="tdTableClasses">20%</td>
@@ -60,7 +60,7 @@ export default function WalletTableAnalyze() {
                             <td className="tdTableClasses">750</td>
                             <td className="tdTableClasses">820</td>
                             <td className="tdTableClasses">70</td>
-                            <td className="tdTableClasses">+9,33%</td>
+                            <td className="tdTableClasses">+9%</td>
                         </tr>
                         <tr>
                             <th className="thdTableClasses">XPML11</th>
@@ -74,7 +74,7 @@ export default function WalletTableAnalyze() {
                             <td className="tdTableClasses">97</td>
                             <td className="tdTableClasses">150</td>
                             <td className="tdTableClasses">53</td>
-                            <td className="tdTableClasses">+54,64%</td>
+                            <td className="tdTableClasses">+55%</td>
                         </tr>
                         <tr>
                             <th className="thdTableClasses">VALE3</th>
@@ -85,10 +85,10 @@ export default function WalletTableAnalyze() {
                             <td className="tdTableClasses">20%</td>
                             <td className="tdTableClasses">100%</td>
                             <td className="tdTableClasses">48</td>
-                            <td className="tdTableClasses">52,60</td>
+                            <td className="tdTableClasses">53</td>
                             <td className="tdTableClasses">60</td>
-                            <td className="tdTableClasses">7,40</td>
-                            <td className="tdTableClasses">+14,07%</td>
+                            <td className="tdTableClasses">7</td>
+                            <td className="tdTableClasses">+14%</td>
                         </tr>
                     </tbody>
                 </table>
