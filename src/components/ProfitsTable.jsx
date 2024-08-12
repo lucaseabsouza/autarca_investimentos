@@ -27,22 +27,22 @@ export default function ProfitsTable() {
 
                             <tr>
                                 <th className="thdTableClasses">VISC11</th>
-                                <td className="tdTableClasses">29,60</td>
+                                <td className="tdTableClasses">30</td>
                             </tr>
                             
                             <tr>
                                 <th className="thdTableClasses">HGLG11</th>
-                                <td className="tdTableClasses">49,50</td>
+                                <td className="tdTableClasses">49</td>
                             </tr>
 
                             <tr>
                                 <th className="thdTableClasses">VALE3</th>
-                                <td className="tdTableClasses">52,60</td>
+                                <td className="tdTableClasses">53</td>
                             </tr>
 
                             <tr>
                                 <th className="thdTableClasses">ITSA3</th>
-                                <td className="tdTableClasses">22,20</td>
+                                <td className="tdTableClasses">22</td>
                             </tr>
                         </tbody>
                     </table>
