@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
+import { TfiMenu } from "react-icons/tfi";
 import { Link } from 'react-router-dom';
 import { MdHomeFilled } from "react-icons/md";
 import { IoWalletSharp } from "react-icons/io5";
@@ -22,8 +21,8 @@ export default function DefaultHeader() {
             <Link to="/"><img src='/imgs/logo_bg_black.png'/></Link>
           </div>
           <nav>
-            <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
-              <FontAwesomeIcon icon={faBars} style={{color: "#fff"}} aria-label="Abrir Menu"/>
+            <div className={active ? "iconActive" : "iconClose"} onClick={ToggleMode}>
+              <TfiMenu style={{color: "fff"}}/>
             </div>
             <div className={active ? "menu menuOpen" : "menu menuClose"}>
               <div className='list'>
