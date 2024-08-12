@@ -39,6 +39,7 @@
 }
 
 .listItems{
+    align-items: start;
     display: flex;
     flex-direction: column;
 
