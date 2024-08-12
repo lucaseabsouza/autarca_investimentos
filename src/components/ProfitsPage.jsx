@@ -2,7 +2,8 @@ import React from "react";
 
 import DefaultHeader from './DefaultHeader'
 import CardsChart from './CardsCharts';
-import InitialBtnSelectPeriod from './InitialBtnSelectPeriod';
+import InitialBtnSelectYear from './InitialBtnSelectYear';
+import InitialBtnSelectMonth from './InitialBtnSelectMonth'
 import InitialBtnSelectClass from './InitialBtnSelectClass';
 import { ProfitsChartLineHistory } from "./ProfitsChartLineHistory";
 import {ProfitsChartDoughnut} from './ProfitsChartDoughnut'
@@ -16,8 +17,9 @@ export default function ProfitsPage() {
             <CardsChart
                 title = "Proventos"
                 insight1 = "R$ 260,38"
-                btn1 = <InitialBtnSelectPeriod/>
-                btn2 = <InitialBtnSelectClass/>
+                btn1 = <InitialBtnSelectYear/>
+                btn2 = <InitialBtnSelectMonth/>
+                btn3 = <InitialBtnSelectClass/>
                 chart=<ProfitsChartLineHistory/>
             />
             <CardsChart

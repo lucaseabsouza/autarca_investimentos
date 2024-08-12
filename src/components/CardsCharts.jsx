@@ -11,6 +11,7 @@ export default function InitialCardProfitability(props) {
                     <div className="containerBtnSelect" style={{display: "flex", justifyContent: "center"}}>
                         {props.btn1}
                         {props.btn2}
+                        {props.btn3}
                     </div>
                     <div className="containerChart">
                         {props.chart}

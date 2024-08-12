@@ -4,7 +4,8 @@ import DefaultHeader from './DefaultHeader'
 import DefaultFooter from "./DefaultFooter";
 import CardsInsights from "./CardsInsights";
 import CardsChart from './CardsCharts';
-import InitialBtnSelectPeriod from './InitialBtnSelectPeriod'
+import InitialBtnSelectYear from './InitialBtnSelectYear'
+import InitialBtnSelectMonth from './InitialBtnSelectMonth'
 import InitialBtnSelectClass from "./InitialBtnSelectClass";
 import { InitialChartLineProfitability } from "./InitialChartLineProfitability";
 
@@ -29,8 +30,9 @@ export default function InitialPageProfitability() {
                 title = "Rentabilidade"
                 insight1 = "R$ 170,00"
                 insight2 = "+2,05%"
-                btn1 = <InitialBtnSelectPeriod/>
-                btn2 = <InitialBtnSelectClass/>
+                btn1 = <InitialBtnSelectYear/>
+                btn2 = <InitialBtnSelectMonth/>
+                btn3 = <InitialBtnSelectClass/>
                 chart= <InitialChartLineProfitability/>
             />
 

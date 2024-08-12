@@ -69,7 +69,7 @@
     display: block;
 }
 
-.btnSelect{
+.select{
     display: flex;
 
     font-size: 1rem;
@@ -81,7 +81,7 @@
     border-radius: 0.5rem;
 
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0 0.5rem;
 
     color: var(--secondColor);
     background-color: var(--primaryColor);
