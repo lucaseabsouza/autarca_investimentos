@@ -14,7 +14,7 @@ export default function WalletPage() {
             <DefaultHeader/>
             <CardsInsights
                 title = "Rebalanceamento"
-                subTitle = "Invista R$ 644,00 em ETFs"
+                subTitle = "Invista R$ 644 em ETFs"
                 />
             <WalletTableAnalyze/>
             <CardsChart

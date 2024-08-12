@@ -16,7 +16,7 @@ export default function ProfitsPage() {
             <DefaultHeader/>
             <CardsChart
                 title = "Proventos"
-                insight1 = "R$ 260,38"
+                insight1 = "R$ 260"
                 btn1 = <InitialBtnSelectYear/>
                 btn2 = <InitialBtnSelectMonth/>
                 btn3 = <InitialBtnSelectClass/>

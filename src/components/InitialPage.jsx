@@ -22,13 +22,13 @@ export default function InitialPageProfitability() {
 
             <CardsInsights
                 title = "Proventos"
-                subTitle = "R$ 25,00"
+                subTitle = "R$ 25"
                 description = "+33% nos últimos 12 meses"
             />
 
             <CardsChart
                 title = "Rentabilidade"
-                insight1 = "R$ 170,00"
+                insight1 = "R$ 170"
                 insight2 = "+2,05%"
                 btn1 = <InitialBtnSelectYear/>
                 btn2 = <InitialBtnSelectMonth/>
