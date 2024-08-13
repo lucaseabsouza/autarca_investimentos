@@ -15,7 +15,7 @@ export default function DefaultHeader() {
 
   return (
     <>
-      <div className='container'>
+      <div className='container containerHeader'>
         <div className={active ? "header headerOpen" : "header headerClose"}>
           <div className={active ? "logo logoOpen" : "logo logoClose"}>
             <Link to="/"><img src='/imgs/logo_bg_black.png'/></Link>

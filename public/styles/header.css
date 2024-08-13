@@ -1,10 +1,15 @@
+.containerHeader {
+    position: sticky;
+    top: 0;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     position: sticky;
-    top: 0.5rem;
+    top: 0;
 
     padding: 0.5rem 1rem;
     margin: 0.5rem;
