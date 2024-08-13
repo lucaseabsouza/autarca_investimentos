@@ -8,7 +8,7 @@ import InitialBtnSelectYear from './InitialBtnSelectYear'
 import InitialBtnSelectMonth from './InitialBtnSelectMonth'
 import InitialBtnSelectClass from "./InitialBtnSelectClass";
 import { InitialChartLineProfitability } from "./InitialChartLineProfitability";
-import BtnBackToTop from './BtnBackToTop';
+import BtnScrollToTop from './BtnScrollToTop';
 
 export default function InitialPageProfitability() {
     return (
@@ -37,7 +37,7 @@ export default function InitialPageProfitability() {
                 chart= <InitialChartLineProfitability/>
             />
 
-            <BtnBackToTop/>
+            <BtnScrollToTop/>
 
             <DefaultFooter/>
         </>

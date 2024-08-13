@@ -3,15 +3,15 @@ import React from "react";
 import { IoMdArrowDropupCircle } from "react-icons/io";
 import { animateScroll as scroll } from 'react-scroll';
 
-export default function BtnBackToTop() {
+export default function BtnScrollToTop() {
     const backToTopButton = document.querySelector('.iconUp')
 
-    const returnToTop = () => {
+    const backToTop = () => {
         scroll.scrollToTop();
     }
 
     const showbackToTop = () => {
-        if (window.scrollY >= 100) {
+        if (window.scrollY >= 1) {
     backToTopButton.classList.add('show')
         } else {
     backToTopButton.classList.remove('show')
@@ -23,7 +23,7 @@ export default function BtnBackToTop() {
     })
     return (
         <>
-            <IoMdArrowDropupCircle className="iconUp" size={40} onClick={returnToTop}/>
+            <IoMdArrowDropupCircle className="iconUp" size={40} onClick={backToTop}/>
         </>
     )
 }
