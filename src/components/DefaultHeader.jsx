@@ -22,15 +22,15 @@ export default function DefaultHeader() {
           </div>
           <nav>
             <div className={active ? "iconActive" : "iconClose"} onClick={ToggleMode}>
-              <TfiMenu style={{color: "fff"}}/>
+              <TfiMenu color="#fff"/>
             </div>
             <div className={active ? "menu menuOpen" : "menu menuClose"}>
               <div className='list'>
                 <ul className='listItems'>
                   <li className='items'><Link to="/"><MdHomeFilled /> Início</Link></li>
-                  <li className='items'><Link to="/carteira"><IoWalletSharp /> Carteira</Link></li>
-                  <li className='items'><Link to="/proventos"><FaMoneyBill /> Proventos</Link></li>
-                  <li className='items'><Link to="/notificacoes"><AiFillNotification /> Notificações</Link></li>
+                  <li className='items'><Link to="/carteira"><IoWalletSharp color="#d4d4d4"/> Carteira</Link></li>
+                  <li className='items'><Link to="/proventos"><FaMoneyBill color="#d4d4d4"/> Proventos</Link></li>
+                  <li className='items'><Link to="/notificacoes"><AiFillNotification color="#d4d4d4"/> Notificações</Link></li>
                 </ul>
               </div>
             </div>

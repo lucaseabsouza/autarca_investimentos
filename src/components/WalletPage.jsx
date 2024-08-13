@@ -6,6 +6,7 @@ import WalletTableAnalyze from "./WalletTableAnalyze";
 import CardsChart from './CardsCharts';
 import { WalletChartPolarDistribution } from "./WalletChartPolarDistribution";
 import WalletTableClasses from "./WalletTableClasses";
+import BtnBackToTop from './BtnBackToTop';
 import DefaultFooter from "./DefaultFooter";
 
 export default function WalletPage() {
@@ -22,6 +23,7 @@ export default function WalletPage() {
             />
             <WalletTableClasses/>
             <WalletTableAnalyze/>
+            <BtnBackToTop/>
             <DefaultFooter/>
         </>
     )}

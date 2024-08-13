@@ -8,6 +8,7 @@ import InitialBtnSelectClass from './InitialBtnSelectClass';
 import { ProfitsChartLineHistory } from "./ProfitsChartLineHistory";
 import {ProfitsChartDoughnut} from './ProfitsChartDoughnut'
 import ProfitsTable from "./ProfitsTable";
+import BtnBackToTop from './BtnBackToTop';
 import DefaultFooter from "./DefaultFooter";
 
 export default function ProfitsPage() {
@@ -27,6 +28,9 @@ export default function ProfitsPage() {
                 chart=<ProfitsChartDoughnut/>
             />
             <ProfitsTable/>
+
+            <BtnBackToTop/>
+
             <DefaultFooter/>
         </>
     )
