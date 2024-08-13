@@ -16,12 +16,12 @@ export default function WalletPage() {
                 title = "Rebalanceamento"
                 subTitle = "Invista R$ 644 em ETFs"
                 />
-            <WalletTableAnalyze/>
             <CardsChart
                 title = "Distribuição"
                 chart=<WalletChartPolarDistribution/>
             />
             <WalletTableClasses/>
+            <WalletTableAnalyze/>
             <DefaultFooter/>
         </>
     )}
