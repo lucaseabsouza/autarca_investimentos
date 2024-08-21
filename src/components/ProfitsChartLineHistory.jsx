@@ -47,12 +47,12 @@ export const ProfitsChartLineHistory = () => {
             {
                 label: "Profits",
                 data: [30, 10, 12, 32, 31, 50, 30, 19, 35, 21, 38, 52],
-                borderColor: "#0948a8",
+                borderColor: "#569aff",
                 tension: 0,
                 fill: true,
                 datalabels: {
                     color: "#d4d4d4",
-                    backgroundColor: "#023074",
+                    backgroundColor: "#1b1b1b",
                     borderRadius: 5,
                     clamp: true,
                 }

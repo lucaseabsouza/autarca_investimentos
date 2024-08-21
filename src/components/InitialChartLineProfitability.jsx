@@ -50,10 +50,10 @@ export const InitialChartLineProfitability = () => {
                 data: [20, 45, 10, 60, 35, 50, 100, 90, 40, 15, 30, 70],
                 tension: 0,
                 fill: true,
-                borderColor: "#0948a8",
+                borderColor: "#569aff",
                 datalabels: {
                     color: "#d4d4d4",
-                    backgroundColor: "#023074",
+                    backgroundColor: "#1B1B1B",
                     borderRadius: 5,
                     clamp: true,
                 }
