@@ -30,11 +30,11 @@ export const WalletChartPolarDistribution = () => {
             {   
                 data: [2560, 1952, 1652, 1265, 1095],
                 backgroundColor: [
-                    '#000',
-                    '#586f92',
-                    '#0948a8',
-                    '#7C7C7C',
                     '#2758c0',
+                    '#586f92',
+                    '#414141',
+                    '#a5a5a5',
+                    '#f0f0f0',
                 ],
                 borderWidth: 5,
                 borderColor: "#161616",
