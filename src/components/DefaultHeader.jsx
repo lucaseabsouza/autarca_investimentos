@@ -18,7 +18,7 @@ export default function DefaultHeader() {
       <div className='container containerHeader'>
         <div className={active ? "header headerOpen" : "header headerClose"}>
           <div className={active ? "logo logoOpen" : "logo logoClose"}>
-            <Link to="/"><img src='/imgs/logo_bg_black.png'/></Link>
+            <Link to="/"><img src='/imgs/logo_white.png'/></Link>
           </div>
           <nav>
             <div className={active ? "iconActive" : "iconClose"} onClick={ToggleMode}>
