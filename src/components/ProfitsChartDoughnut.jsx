@@ -25,7 +25,7 @@ export const ProfitsChartDoughnut = () => {
             {   
                 data: [2560, 1952],
                 backgroundColor: [
-                    '#174ea1',
+                    '#27A9E1',
                     '#525252',
                 ],
                 borderWidth: 5,

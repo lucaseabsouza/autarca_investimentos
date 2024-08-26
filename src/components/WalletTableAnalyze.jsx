@@ -7,7 +7,7 @@ export default function WalletTableAnalyze() {
                 <table className="containerCards containerThTable" style={{justifyContent:"flex-start"}}>
                     <tbody style={{marginLeft: "1rem"}}>
                         <tr>
-                            <th className='thTableClasses thdTableClasses' style={{fontWeight: 500, color: '#569aff'}}>Ativos</th>
+                            <th className='thTableClasses thdTableClasses' style={{fontWeight: 500, color: '#27A9E1'}}>Ativos</th>
                             <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Aporte p/ equilíbrio</th>
                             <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Em Carteira</th>
                             <th className='thTableClasses' style={{textAlign: 'end', padding: "0 1rem"}}>Ideal</th>
